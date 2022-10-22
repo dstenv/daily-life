@@ -1,4 +1,4 @@
-# guevara-life
+# daily-life
 
 ## Project setup
 ```

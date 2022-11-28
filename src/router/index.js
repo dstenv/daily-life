@@ -33,6 +33,9 @@ const routes = [
     path: '/show',
     name: 'show',
     component: ShowView,
+    meta: {
+      keepAlive:true
+    }
   },
   {
     path: '/show/toppage',
@@ -86,6 +89,7 @@ const routes = [
     component: Recommended,
     meta: {
       hiddenBar: false,
+      keepAlive:true
     }
   },
 
